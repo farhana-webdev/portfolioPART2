@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+     font-family: "Open Sans", sans-serif;
+
+}
+H1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.container {
+    width: 1140px;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+ul, ol {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.header {
+     padding: 20px 0;
+    position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+   
+}
+
+/* menu Logo start */
+.menuLogo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* menu Logo ends */
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+
+.menu li a {
+    color: rgb(104, 24, 144);
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0 20px;
+}
+
+#button {
+    color: white;
+    font-size: 30px;
+    background: rgb(245, 164, 14);
+    padding: 25px 38px;
+    font-weight: 700px;
+    border-radius: 5px;
+}
+#Banner{
+    padding-top:310px ;
+    padding-bottom: 180px;
+    background: url(../images/bannerBg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bannertext h4 {
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+}
+
+.bannertext h1 {
+    font-size: 85px;
+    font-weight: 700;
+    color: #181818;
+    padding-top: 30px;
+    padding-bottom: 35px;
+}
+.bannertext p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 30px;
+    width: 585px;
+}
+.bannertext a{
+padding: 10px 15px;
+  background:#FD6E0A;
+    color:white;
+    border-radius:5px;
+    margin-right:10px;
+    border:2px solid #FD6E0A;
+    transition: .2s;
+    margin-top: 20px;
+}
+.bannertext a:hover{
+    background: transparent;
+    color: #181818;
+}
+#About{
+    padding: 130px;
+}
+.aboutcontent{
+    padding: 130px 155px;
+    background: #FFF8F3;
+    text-align: center;
+}
+.aboutcontent h3{
+    font-size: 35px;
+    font-weight: 700;
+    color: #350202;
+    padding-bottom: 20px;
+}
+.aboutcontent p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #757575;
+    line-height: 30px;
+}
+.more{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
